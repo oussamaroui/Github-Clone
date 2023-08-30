@@ -1,0 +1,270 @@
+*{ box-sizing: border-box;}
+body{
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI","Noto Sans",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji";
+    margin: 0px; padding: 0px;
+    background-color: #0C1017;
+    color: white;
+}
+header{
+    background-color: #010409;
+    height: 100px;
+    margin: 0px; padding: 0px;
+
+}
+.sectionH{
+    display: flex; 
+}
+.global-headerL{    
+    padding: 16px 8px 0px 16px;
+    display: flex; 
+    align-items: center;
+    width: 50%;
+}
+.btnmenu{
+    background-color: transparent;
+    border: none;
+    border: 1px solid #3b3b3b;
+    border-radius: 6px;
+    padding: 7px; padding-bottom: 4px;
+    margin-right: 16.5px;
+    height: 32px;
+}
+.octicon-mark-github{
+    margin-right: 16px;
+}
+.username{
+    color: rgb(231, 231, 231);
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI","Noto Sans",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji";
+    font-size: 14px;
+    font-weight: 600;
+    margin: 0px; padding: 0px;
+}
+.global-headerR{    
+    padding: 16px 8px 0px 20px;
+    display: flex; 
+    align-items: center;
+    width: 50%;
+}
+
+/* ############################################## */
+
+.inputDiv{
+    width: 350px; height: 32px;
+    padding: 0px 5px 0px 7px;
+    background-color: transparent;
+    border: none;
+    border: 1px solid #3b3b3b;
+    border-radius: 6px;
+    display: flex; align-items: center;
+}
+#inpS{
+    background-color: transparent;
+    border: none;
+    margin-left: 8px;
+    font-family: inherit;
+    width: 85%;
+    color: white;
+}
+#inpS::placeholder{
+    font-size: 14px;
+}
+#inpS:focus{
+    outline: none;
+}
+.octicon-command-palette{padding: 2px; border-radius: 2px;}
+.octicon-command-palette:hover{background-color: rgb(53, 53, 53); cursor: pointer;}
+.sp{
+    width: .3px; height: 50%; background-color: #74747485; margin-right: 8px;
+}
+.linp{margin-left: 11.5px; background-color: #3b3b3b; height: 20px; width: .5px;}
+.dropdown{
+    background-color: transparent;
+    border: none;
+    border: 1px solid #3b3b3b;
+    border-radius: 6px;
+    padding: 7px 8px; padding-bottom: 4px;
+    margin-left: 12px;
+    height: 32px;
+    display: flex; align-items: center;
+}
+.octicon-plus{margin-right: 4px;}
+.octicon-issue-opened, .octicon-git-pull-request, .octicon-inbox{
+    background-color: transparent;
+    border: none;
+    border: 1px solid #3b3b3b;
+    border-radius: 6px;
+    margin-left: 8px;
+    padding: 7.3px;
+    width: 32px; height: 32px;
+}
+.avatar{
+    border-radius: 50%;
+    margin-left: 8px;
+}
+
+/* ##################################### */
+.sectionHB{
+    padding: 22px 20px 0px 14px ;
+    box-sizing: border-box;
+}
+ul{
+    width: 565px;
+    list-style: none;
+    padding: 0px;
+    font-size: 14px;
+    margin: 0px;
+    display: flex; justify-content: space-evenly;
+}
+li svg{
+    vertical-align: baseline;
+    margin-right: 8px;
+}
+  
+ul li {
+    display: flex;
+    align-items: center;
+    padding-bottom: 13px;
+    width: 100px;
+    padding-left: 7px;
+}
+#tab1{
+    border-bottom: 1.9px solid #F78166;
+    padding-bottom: 13px;
+    width: 100px; font-weight: 500;
+    padding-left: 8px;
+}
+#tab2{
+    width: 150px; margin-left:10px;
+}
+.numRep{
+    padding-top: 2px;
+    font-size: 12px;
+    background-color: #2D3038;
+    width: 20px; height: 20px; text-align: center; margin: auto;
+    border-radius: 50%;
+    margin-left: 8px;
+}
+
+/* ######################################## */
+
+#home{
+    display: flex;
+}
+
+aside{
+    height: 100vh; width: 28%;
+    padding: 44.5px 0px 30px 32.5px;
+}
+aside img{
+    border-radius: 50%;
+    width: 295px; height: 295px;
+}
+#name{
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 24px;
+    margin: 15px 0px -9px 0px;
+}
+#username{
+    color: #7C8490;
+    font-size: 20px;
+    line-height: 24px;
+    font-weight: lighter;
+    font-style: normal;
+    margin: 12.5px 0px 14px 0px;
+}
+#follow{
+    font-weight: 600;
+    height: 33px; width: 92%;
+    margin: auto; padding-top: 5px;
+    background-color: #20272D;
+    border: none;
+    border-radius: 6px;
+    color: #C9D0D8; 
+}
+#follow:hover{
+    cursor: pointer;
+}
+.fol{
+    font-size: 14px;
+    color: #7C8490;
+}
+.fol span{
+    color: white;
+}
+.octicon-people{
+    vertical-align: middle;
+    margin: 0px 4px 3px 0px;
+}
+#bio{line-height: 24px;}
+/* #################################### */
+
+#rightS{
+    height: 100vh; width: 71%;
+    padding-top: 20px; padding-right: 20px;
+}
+.hr{ display: flex; justify-content: space-between;}
+.custom{
+    font-size: 11px;
+    color: #7C8490; margin-top: 22px;
+}
+#repos {
+    height: 300px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+.repo {
+    width: 100%;
+    height: 92px;
+    border: 1px solid #2D3038;
+    border-radius: 3px;
+    padding: 9px 16px;
+
+}
+.up{
+    margin: 0px;
+    display: flex; justify-content: space-between;
+}
+.repoName{
+    color: #2F80F6;
+    font-size: 14px;
+    font-weight: 600;
+    margin-top: 0px;
+}
+.repoName:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+.public{
+    color: #7C8490;
+    font-size: 12px;
+    font-weight: 600;
+    border: 1px solid #2D3038;
+    padding: 2px 7px; margin: 0px;
+    border-radius: 50px;
+}
+.color{
+    width: 12px;
+    height: 12px;
+    border: 1px solid rgb(169, 169, 169); border-radius: 50px;
+    background-color: yellow;
+    position: relative; top: 1px;
+    display: inline-block;
+    border-radius: 50%;
+}
+.lang{
+    color: gray;
+    font-size: 12px;
+    margin-left: 4px; 
+}
+.down{
+    margin-top: 25px;
+    display: flex; justify-content: space-between; align-items: center;
+    width: 110px;
+}
+.down:nth-child(2){ color: gray; font-size: 12px;}
+.down svg{vertical-align: middle; margin-right: 5px;}
+  
+
+  
